@@ -4,8 +4,8 @@ import 'package:simple_tode_app/widgets/custom_listview.dart';
 import 'package:simple_tode_app/widgets/custom_textfield.dart';
 import 'package:simple_tode_app/provider/note_provider.dart';
 
-class Homepage extends StatelessWidget {
-  const Homepage({super.key});
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

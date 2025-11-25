@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:simple_tode_app/provider/note_provider.dart';
 
 
-import 'screens/HomePage.dart';
+import 'screens/home_screen.dart';
 void main(){
   runApp(ToDoList());
 }
@@ -17,7 +17,7 @@ class ToDoList extends StatelessWidget {
       create: (context)=>NoteProvider(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Homepage(),
+        home: HomeScreen(),
       ),
     );
   }
